@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BankAccountApp
 {
-    class Address
+    namespace BankAccountApp
     {
+        class Address
+        {
+            private string roadNo;
+            private string houseNo;
+            private string city;
+            private string country;
+        }
     }
 }
